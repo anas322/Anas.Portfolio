@@ -9,6 +9,10 @@ export default defineNuxtConfig({
                     rel: "stylesheet",
                     href: "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
                 },
+                {
+                    rel: "stylesheet",
+                    href: "https://fonts.googleapis.com/css2?family=Jersey+15&display=swap",
+                },
             ],
         },
         pageTransition: { name: "page", mode: "out-in" },
