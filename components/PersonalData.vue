@@ -1,16 +1,16 @@
 <template>
-    <div class="fixed left-0 top-0 h-screen w-1/4">
+    <section class="fixed left-0 top-0 h-screen w-1/4">
         <div class="flex flex-col items-center gap-y-8 p-8 border-light-gray border rounded-3xl h-full">
             <header class="w-full">
                 <p class="flex justify-between">
-                    <span class="text-5xl text-white font-semibold">Anas.</span>
-                    <span class="text-white">Full-Stack<br />Web Developer</span>
+                    <span class="text-5xl text-white font-semibold leading-8">Anas.</span>
+                    <span class="text-sm font-semibold text-white">Full-Stack<br />Web Developer</span>
                 </p>
             </header>
 
             <div class="overflow-hidden rounded-2xl">
                 <img
-                    class="object-cover h-80 grayscale transform scale-150 -translate-y-10 pointer-events-none"
+                    class="object-cover h-64 grayscale transform scale-150 -translate-y-10 pointer-events-none"
                     src="~/assets/developer.jpg"
                     alt="Anas Personal Photo"
                     width="100%"
@@ -18,9 +18,9 @@
             </div>
 
             <div>
-                <p class="text-white text-2xl">anaselnahef12@gmail.com</p>
-                <p class="text-white text-2xl">Based in Cairo, Egypt</p>
-                <p class="text-light-gray font-semibold">&#9424; Anas. All Rights Reserved</p>
+                <p class="text-white text-center text-2xl">anaselnahef12@gmail.com</p>
+                <p class="text-white text-center text-2xl">Based in Cairo, Egypt</p>
+                <p class="text-light-gray text-center font-semibold pt-5">&#169; Anas. All Rights Reserved</p>
             </div>
 
             <div class="flex gap-3">
@@ -105,7 +105,7 @@
                 </div>
             </div>
 
-            <button class="flex justify-center items-center py-4 gap-x-4 w-full rounded-full bg-light-green">
+            <button class="flex justify-center items-center py-3 gap-x-4 w-full rounded-full bg-light-green">
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                     <path
                         d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"
@@ -114,5 +114,5 @@
                 <span class="text-lg p-0"> HIRE ME! </span>
             </button>
         </div>
-    </div>
+    </section>
 </template>

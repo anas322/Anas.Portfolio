@@ -24,4 +24,8 @@ useHead({
 body {
     background-color: #1f1f1f;
 }
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
 </style>

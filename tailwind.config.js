@@ -9,6 +9,9 @@ export default {
                 "light-green": "#28E98C",
                 "dark-green": "#28e98c",
             },
+            animation: {
+                "spin-slow": "spin 7s linear infinite",
+            },
         },
     },
     plugins: [],

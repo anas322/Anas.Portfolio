@@ -2,6 +2,7 @@
     <div>
         <PersonalData />
         <MainSection />
+        <LeftMenuBar />
     </div>
 </template>
 
