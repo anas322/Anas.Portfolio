@@ -15,6 +15,10 @@
         <div class="min-h-screen">
             <Services />
         </div>
+
+        <div class="min-h-screen">
+            <Skills />
+        </div>
     </main>
 </template>
 
