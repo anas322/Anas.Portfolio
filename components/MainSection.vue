@@ -11,6 +11,10 @@
         <div class="min-h-screen">
             <Resume />
         </div>
+
+        <div class="min-h-screen">
+            <Services />
+        </div>
     </main>
 </template>
 
