@@ -1,6 +1,21 @@
 <template>
     <section class="mt-48">
-        <UIButton>Contact</UIButton>
+        <UIButton>
+            <template #icon>
+                <svg
+                    class="text-white fill-current p-1 pl-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        d="M22 5v14h-20v-14h20zm2-2h-24v18h24v-18zm-2 16l-6.526-6.618-3.445 3.483-3.418-3.525-6.611 6.66 5.051-8-5.051-6 10.029 7.446 9.971-7.446-4.998 6.01 4.998 7.99z"
+                    />
+                </svg>
+            </template>
+            Contact</UIButton
+        >
         <p class="text-5xl pt-24 text-white">Let's Work <span class="text-light-green">Together!</span></p>
         <p class="pt-10">
             <a
