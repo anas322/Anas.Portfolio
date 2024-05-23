@@ -23,6 +23,10 @@
         <div class="min-h-screen">
             <Portfolio />
         </div>
+
+        <div class="min-h-screen mb-10">
+            <Contact />
+        </div>
     </main>
 </template>
 
