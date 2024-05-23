@@ -19,6 +19,10 @@
         <div class="min-h-screen">
             <Skills />
         </div>
+
+        <div class="min-h-screen">
+            <Portfolio />
+        </div>
     </main>
 </template>
 
