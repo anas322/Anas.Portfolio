@@ -8,7 +8,7 @@
         >
 
         <div class="pt-16">
-            <p class="text-5xl text-justify text-white leading-snug font-light">
+            <p class="text-5xl text-white leading-snug font-light">
                 Education, Courses & <span class="text-dark-green">Experience</span><br />
             </p>
 

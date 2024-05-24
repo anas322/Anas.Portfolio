@@ -2,6 +2,10 @@
 export default {
     content: [],
     theme: {
+        screens: {
+            desktop: "1300px",
+            sm: "640px",
+        },
         extend: {
             colors: {
                 "dark-gray": "#1F1F1F",

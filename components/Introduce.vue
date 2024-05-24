@@ -1,5 +1,5 @@
 <template>
-    <section class="relative">
+    <section>
         <UIButton>
             <template #icon>
                 <UISVGHome class="text-white fill-current p-1 pl-0" />
@@ -8,7 +8,7 @@
         </UIButton>
 
         <div class="pt-16">
-            <p class="text-8xl text-white leading-snug font-light">
+            <p class="text-5xl sm:text-7xl desktop:text-8xl text-white leading-snug font-light">
                 Say Hi from <span class="text-dark-green">Anas</span>,<br />
                 Full-Stack Web <br />
                 Developer
@@ -21,7 +21,7 @@
         </div>
 
         <!-- my projects -->
-        <div class="absolute bottom-0 right-0 cursor-pointer">
+        <div class="absolute desktop:bottom-28 bottom-28 desktop:right-0 right-10 cursor-pointer">
             <svg
                 class="absolute text-white fill-current p-14"
                 clip-rule="evenodd"

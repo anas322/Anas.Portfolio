@@ -46,23 +46,29 @@
                 <p class="mt-10 mb-4 text-lg text-light-gray font-normal">Social</p>
 
                 <div class="flex gap-x-4">
-                    <div class="flex cursor-pointer">
-                        <UISVGSocialLinkedin
-                            class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
-                        />
-                    </div>
+                    <NuxtLink to="https://www.linkedin.com/in/anas-elnahef/" target="_blank">
+                        <div class="flex cursor-pointer">
+                            <UISVGSocialLinkedin
+                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                            />
+                        </div>
+                    </NuxtLink>
 
-                    <div class="flex cursor-pointer">
-                        <UISVGSocialInstagram
-                            class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
-                        />
-                    </div>
+                    <NuxtLink to="https://www.instagram.com/anas0dev/" target="_blank">
+                        <div class="flex cursor-pointer">
+                            <UISVGSocialInstagram
+                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                            />
+                        </div>
+                    </NuxtLink>
 
-                    <div class="flex cursor-pointer">
-                        <UISVGSocialTwitter
-                            class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
-                        />
-                    </div>
+                    <NuxtLink to="https://twitter.com/Anas0Dev" target="_blank">
+                        <div class="flex cursor-pointer">
+                            <UISVGSocialTwitter
+                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                            />
+                        </div>
+                    </NuxtLink>
                 </div>
             </div>
         </div>

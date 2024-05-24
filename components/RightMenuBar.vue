@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-col gap-y-6 fixed right-16 top-1/2 -translate-y-1/2 px-3 py-8 border border-light-gray rounded-full"
+        class="hidden desktop:flex flex-col gap-y-6 fixed right-16 top-1/2 -translate-y-1/2 px-3 py-8 border border-light-gray rounded-full"
     >
         <!-- home -->
         <div class="group relative">

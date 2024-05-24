@@ -8,7 +8,7 @@
         >
 
         <div class="pt-16">
-            <p class="text-6xl text-justify text-white leading-snug font-light">
+            <p class="text-5xl sm:text-6xl text-white leading-snug font-light">
                 Every great Application begin with an even
                 <span class="text-dark-green">better Idea</span><br />
             </p>

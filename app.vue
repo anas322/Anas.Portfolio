@@ -15,6 +15,7 @@ useHead({
 * {
     font-family: "Inter", sans-serif;
     font-weight: 200;
+    box-sizing: border-box;
 }
 
 /* transition classes */

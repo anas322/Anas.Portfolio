@@ -6,18 +6,18 @@
             </template>
             Contact</UIButton
         >
-        <p class="text-5xl pt-24 text-white">Let's Work <span class="text-light-green">Together!</span></p>
+        <p class="text-4xl sm:text-5xl pt-24 text-white">Let's Work <span class="text-light-green">Together!</span></p>
         <p class="pt-10">
             <a
                 href="mailto:anaselnahef12@gmail.com?subject=let's work together!"
-                class="text-2xl text-white hover:text-dark-green transition-colors duration-300 underline"
+                class="text-xl sm:text-2xl text-white hover:text-dark-green transition-colors duration-300 underline"
                 >anaselnahef12@gmail.com</a
             >
         </p>
         <div class="pt-16">
             <form>
                 <div class="flex flex-wrap gap-6">
-                    <div class="basis-[calc(50%-24px)] flex-col">
+                    <div class="sm:basis-[calc(50%-24px)] flex-col">
                         <label for="name" class="text-white text-xs font-medium tracking-wider uppercase"
                             >FULL NAME <span class="text-red-600 text-lg">*</span></label
                         >
@@ -30,7 +30,7 @@
                         <p class="text-red-600 text-lg pt-1 font-medium">Please fill out this field.</p>
                     </div>
 
-                    <div class="basis-[calc(50%-24px)] flex-col">
+                    <div class="sm:basis-[calc(50%-24px)] flex-col">
                         <label for="email" class="text-white text-xs font-medium tracking-wider uppercase"
                             >EMAIL <span class="text-red-600 text-lg">*</span></label
                         >
@@ -43,7 +43,7 @@
                         <p class="text-red-600 text-lg pt-1 font-medium">Please fill out this field.</p>
                     </div>
 
-                    <div class="basis-[calc(50%-24px)] flex-col">
+                    <div class="sm:basis-[calc(50%-24px)] flex-col">
                         <label for="PHONE" class="text-white text-xs font-medium tracking-wider uppercase"
                             >PHONE
                         </label>
