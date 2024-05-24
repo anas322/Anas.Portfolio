@@ -7,39 +7,81 @@
                 <p class="mb-10 text-lg text-light-gray font-normal">Menu</p>
 
                 <div class="flex flex-col gap-y-2">
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGHome class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Home</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGHome
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Home
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGAbout class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">About</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGAbout
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            About
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGReseme class="text-light-gray fill-current p-1 pl-0 dua" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Resume</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGReseme
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300 dua"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Resume
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGServices class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Services</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGServices
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Services
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGSkills class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Skills</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGSkills
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Skills
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGPortfolio class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Portfolio</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGPortfolio
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Portfolio
+                        </p>
                     </div>
 
-                    <div class="flex gap-1 cursor-pointer py-1">
-                        <UISVGContact class="text-light-gray fill-current p-1 pl-0" />
-                        <p class="text-xs text-light-gray font-medium leading-7">Contact</p>
+                    <div class="group flex gap-1 cursor-pointer py-1">
+                        <UISVGContact
+                            class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
+                        />
+                        <p
+                            class="text-xs text-light-gray group-hover:text-white font-medium leading-7 transition-colors duration-300"
+                        >
+                            Contact
+                        </p>
                     </div>
                 </div>
 
@@ -49,7 +91,7 @@
                     <NuxtLink to="https://www.linkedin.com/in/anas-elnahef/" target="_blank">
                         <div class="flex cursor-pointer">
                             <UISVGSocialLinkedin
-                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                                class="text-light-gray hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
                             />
                         </div>
                     </NuxtLink>
@@ -57,7 +99,7 @@
                     <NuxtLink to="https://www.instagram.com/anas0dev/" target="_blank">
                         <div class="flex cursor-pointer">
                             <UISVGSocialInstagram
-                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                                class="text-light-gray hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
                             />
                         </div>
                     </NuxtLink>
@@ -65,7 +107,7 @@
                     <NuxtLink to="https://twitter.com/Anas0Dev" target="_blank">
                         <div class="flex cursor-pointer">
                             <UISVGSocialTwitter
-                                class="text-light-gray group-hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
+                                class="text-light-gray hover:text-light-green fill-current box-border p-1 transition-colors duration-300"
                             />
                         </div>
                     </NuxtLink>
