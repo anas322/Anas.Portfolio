@@ -1,5 +1,5 @@
 <template>
-    <main class="w-3/4 ml-96 px-40 pt-16">
+    <main class="w-3/4 ml-96 px-40 pt-16 z-0">
         <div class="min-h-screen">
             <Introduce />
         </div>

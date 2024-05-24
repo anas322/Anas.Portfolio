@@ -1,11 +1,19 @@
 <template>
-    <div>
+    <div class="relative">
+        <FlyToggleButton @click="toggleFlyButton" />
+        <FlyMenuBar :FlyButton="FlyButton" @FlyButton="toggleFlyButton" />
         <PersonalData />
         <MainSection />
         <RightMenuBar />
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+const FlyButton = ref(false);
+
+const toggleFlyButton = () => {
+    FlyButton.value = !FlyButton.value;
+};
+</script>
 
 <style></style>
