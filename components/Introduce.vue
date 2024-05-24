@@ -21,7 +21,10 @@
         </div>
 
         <!-- my projects -->
-        <div class="absolute desktop:bottom-28 bottom-28 desktop:right-0 right-10 cursor-pointer">
+        <div
+            class="absolute desktop:bottom-28 bottom-28 desktop:right-0 right-10 cursor-pointer"
+            @click="goTo('portfolio')"
+        >
             <svg
                 class="absolute text-white fill-current p-14"
                 clip-rule="evenodd"
@@ -72,3 +75,9 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const goTo = (name) => {
+    goToElement(name);
+};
+</script>

@@ -3,7 +3,7 @@
         class="hidden desktop:flex flex-col gap-y-6 fixed right-16 top-1/2 -translate-y-1/2 px-3 py-8 border border-light-gray rounded-full"
     >
         <!-- home -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('introduce')">
             <UISVGHome
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -17,7 +17,7 @@
         </div>
 
         <!-- about -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('about')">
             <UISVGAbout
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -31,7 +31,7 @@
         </div>
 
         <!-- reseme -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('resume')">
             <UISVGReseme
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -46,7 +46,7 @@
         </div>
 
         <!-- services -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('services')">
             <UISVGServices
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -61,7 +61,7 @@
         </div>
 
         <!-- skill -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('skills')">
             <UISVGSkills
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -76,7 +76,7 @@
         </div>
 
         <!-- portfolio -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('portfolio')">
             <UISVGPortfolio
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -91,7 +91,7 @@
         </div>
 
         <!-- contact -->
-        <div class="group relative">
+        <div class="group relative" @click="goTo('contact')">
             <UISVGContact
                 class="text-light-gray hover:text-dark-green fill-current transition-colors duration-300 cursor-pointer"
             />
@@ -106,3 +106,9 @@
         </div>
     </div>
 </template>
+
+<script setup>
+const goTo = (name) => {
+    goToElement(name);
+};
+</script>

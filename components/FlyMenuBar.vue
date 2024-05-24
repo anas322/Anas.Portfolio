@@ -7,7 +7,7 @@
                 <p class="mb-10 text-lg text-light-gray font-normal">Menu</p>
 
                 <div class="flex flex-col gap-y-2">
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('introduce')">
                         <UISVGHome
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -18,7 +18,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('about')">
                         <UISVGAbout
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -29,7 +29,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('resume')">
                         <UISVGReseme
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300 dua"
                         />
@@ -40,7 +40,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('services')">
                         <UISVGServices
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -51,7 +51,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('skills')">
                         <UISVGSkills
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -62,7 +62,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('portfolio')">
                         <UISVGPortfolio
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -73,7 +73,7 @@
                         </p>
                     </div>
 
-                    <div class="group flex gap-1 cursor-pointer py-1">
+                    <div class="group flex gap-1 cursor-pointer py-1" @click="goTo('contact')">
                         <UISVGContact
                             class="text-light-gray group-hover:text-dark-green fill-current p-1 pl-0 transition-colors duration-300"
                         />
@@ -137,5 +137,10 @@ const toggleMenu = computed(() =>
 
 const showMenu = () => {
     emit("FlyButton");
+};
+
+const goTo = (name) => {
+    showMenu();
+    goToElement(name);
 };
 </script>
