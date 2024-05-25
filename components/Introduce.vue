@@ -26,11 +26,9 @@
             @click="goTo('portfolio')"
         >
             <svg
-                class="absolute text-white fill-current p-14"
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white fill-current w-12 h-12"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
             >

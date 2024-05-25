@@ -1,5 +1,7 @@
 <template>
-    <section class="desktop:fixed left-0 top-0 h-screen desktop:w-1/4 sm:w-3/4 mx-auto desktop:min-w-max">
+    <section
+        class="desktop:fixed left-6 top-1/2 desktop:-translate-y-1/2 desktop:w-1/4 sm:w-3/4 mx-auto mt-4 desktop:mt-0 desktop:min-w-max"
+    >
         <div class="flex flex-col items-center gap-y-8 p-8 border-light-gray border rounded-3xl h-full">
             <header class="w-full">
                 <p class="flex justify-between">
