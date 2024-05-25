@@ -7,7 +7,7 @@
 
 <script setup>
 useHead({
-    title: "Anas.",
+    title: "Anas. - Portfolio",
 });
 </script>
 
