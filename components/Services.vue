@@ -7,7 +7,9 @@
             Services</UIButton
         >
 
-        <p class="text-4xl sm:text-5xl pt-24 text-white">My <span class="text-light-green"> Specializations</span></p>
+        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+            My <span class="text-light-green"> Specializations</span>
+        </p>
         <div class="pt-16 space-y-6">
             <UISpecialCard>
                 <template #header>Back-End Development </template>

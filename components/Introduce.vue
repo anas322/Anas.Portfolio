@@ -7,7 +7,7 @@
             Introduce
         </UIButton>
 
-        <div class="pt-16">
+        <div class="pt-16 animate__animated animate__fadeInUp">
             <p class="text-5xl sm:text-7xl desktop:text-8xl text-white leading-snug font-light">
                 Say Hi from <span class="text-dark-green">Anas</span>,<br />
                 Full-Stack Web <br />

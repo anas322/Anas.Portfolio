@@ -8,12 +8,14 @@
         >
 
         <div class="pt-16">
-            <p class="text-5xl text-white leading-snug font-light">
+            <p class="text-5xl text-white leading-snug font-light animate__animated animate__fadeInUp">
                 Education, Courses & <span class="text-dark-green">Experience</span><br />
             </p>
 
             <div class="pt-8">
-                <div class="group relative pl-16 pb-12 border-l border-l-light-gray">
+                <div
+                    class="group relative pl-16 pb-12 border-l border-l-light-gray animate__animated animate__fadeInRight"
+                >
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>
@@ -34,7 +36,9 @@
                     </div>
                 </div>
 
-                <div class="group relative pl-16 pb-12 border-l border-l-light-gray">
+                <div
+                    class="group relative pl-16 pb-12 border-l border-l-light-gray animate__animated animate__fadeInLeft"
+                >
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>
@@ -84,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="group relative pl-16 border-l border-l-light-gray">
+                <div class="group relative pl-16 border-l border-l-light-gray animate__animated animate__fadeInRight">
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>

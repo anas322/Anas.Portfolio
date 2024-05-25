@@ -1,6 +1,6 @@
 <template>
     <div
-        class="group p-8 border border-light-gray hover:border-light-green rounded-3xl space-y-8 transition-colors duration-300"
+        class="group p-8 border border-light-gray hover:border-light-green rounded-3xl space-y-8 transition-colors duration-300 animate__animated animate__fadeInUp"
     >
         <div>
             <p class="text-white group-hover:text-light-green text-2xl transition-colors duration-300">

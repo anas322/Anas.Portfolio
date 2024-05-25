@@ -6,11 +6,13 @@
             </template>
             Portfolio</UIButton
         >
-        <p class="text-4xl sm:text-5xl pt-24 text-white">Featured <span class="text-light-green">Projects</span></p>
+        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+            Featured <span class="text-light-green">Projects</span>
+        </p>
 
         <div class="pt-16">
             <div class="space-y-20">
-                <div class="group">
+                <div class="group animate__animated animate__fadeInUp">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/streetwear.png
@@ -67,7 +69,7 @@
                     </div>
                 </div>
 
-                <div class="group">
+                <div class="group animate__animated animate__fadeInUp">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/twitter.png
@@ -118,7 +120,7 @@
                         </NuxtLink>
                     </div>
                 </div>
-                <div class="group">
+                <div class="group animate__animated animate__fadeInUp">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/instgram.png
@@ -168,7 +170,7 @@
                         </NuxtLink>
                     </div>
                 </div>
-                <div class="group">
+                <div class="group animate__animated animate__fadeInUp">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/recipie.png

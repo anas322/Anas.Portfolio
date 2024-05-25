@@ -6,11 +6,13 @@
             </template>
             My Skills</UIButton
         >
-        <p class="text-4xl sm:text-5xl pt-24 text-white">My <span class="text-light-green"> Advantages</span></p>
+        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+            My <span class="text-light-green"> Advantages</span>
+        </p>
 
         <div class="pt-16">
             <div class="flex flex-wrap gap-x-2 sm:gap-x-8 gap-y-16">
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInTopLeft">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -27,7 +29,7 @@
                     <template #default>Laravel</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInUp">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-16 sm:h-16 mx-auto"
@@ -47,7 +49,7 @@
                     <template #default>PHP</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInTopRight">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -80,7 +82,7 @@
                     <template #default>MYSQL</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInBottomLeft">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -97,7 +99,7 @@
                     <template #default>JS</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInDown">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -114,7 +116,7 @@
                     <template #default>TS</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInBottomRight">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -132,7 +134,7 @@
                     <template #default>Vue.js</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInTopLeft">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -160,7 +162,7 @@
                     <template #default>Nuxt.js 3</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInUp">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"
@@ -183,7 +185,7 @@
                     <template #default>Tailwindcss</template>
                 </UISkillCard>
 
-                <UISkillCard>
+                <UISkillCard class="animate__animated animate__fadeInTopRight">
                     <template #svg>
                         <svg
                             class="w-12 h-12 sm:w-12 sm:h-12 mx-auto"

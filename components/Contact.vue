@@ -6,7 +6,9 @@
             </template>
             Contact</UIButton
         >
-        <p class="text-4xl sm:text-5xl pt-24 text-white">Let's Work <span class="text-light-green">Together!</span></p>
+        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+            Let's Work <span class="text-light-green">Together!</span>
+        </p>
         <p class="pt-10">
             <a
                 href="mailto:anaselnahef12@gmail.com?subject=let's work together!"
