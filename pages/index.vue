@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <div class="relative -">
         <FlyToggleButton @click="toggleFlyButton" />
         <FlyMenuBar :FlyButton="FlyButton" @FlyButton="toggleFlyButton" />
         <PersonalData />
