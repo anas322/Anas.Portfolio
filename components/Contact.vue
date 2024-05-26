@@ -6,10 +6,10 @@
             </template>
             Contact</UIButton
         >
-        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+        <p ref="element1" class="text-4xl sm:text-5xl pt-24 text-white">
             Let's Work <span class="text-light-green">Together!</span>
         </p>
-        <p class="pt-10">
+        <p ref="element2" class="pt-10">
             <a
                 href="mailto:anaselnahef12@gmail.com?subject=let's work together!"
                 class="text-xl sm:text-2xl text-white hover:text-dark-green transition-colors duration-300 underline"
@@ -151,4 +151,12 @@ const resetForm = () => {
     message.error = false;
     phone.error = false;
 };
+
+// animatation code
+const element1 = ref(null);
+const element2 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element2.value, ["animate__animated", "animate__fadeInUp"]);
+});
 </script>

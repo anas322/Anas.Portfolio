@@ -7,14 +7,14 @@
             Introduce
         </UIButton>
 
-        <div class="pt-16 animate__animated animate__fadeInUp">
+        <div ref="element1" class="pt-16">
             <p class="text-5xl sm:text-7xl desktop:text-8xl text-white leading-snug font-light">
                 Say Hi from <span class="text-dark-green">Anas</span>,<br />
                 Full-Stack Web <br />
                 Developer
             </p>
 
-            <p class="pt-16 text-light-gray">
+            <p ref="element2" class="pt-16 text-light-gray">
                 I design and code beautifully simple things and i love what i do. <br />
                 Just simple like that!
             </p>
@@ -78,4 +78,11 @@
 const goTo = (name) => {
     goToElement(name);
 };
+
+const element1 = ref(null);
+const element2 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element2.value, ["animate__animated", "animate__fadeInUp"]);
+});
 </script>

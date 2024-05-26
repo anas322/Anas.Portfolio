@@ -3,6 +3,8 @@ export default function (name) {
     if (element) {
         const offset = 100;
         const topPosition = element.offsetTop - offset;
-        window.scrollTo({ top: topPosition, behavior: "smooth" });
+        setTimeout(() => {
+            window.scrollTo({ top: topPosition, behavior: "smooth" });
+        }, 300); // 300 milliseconds = 0.3 seconds
     }
 }

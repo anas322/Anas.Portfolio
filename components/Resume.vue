@@ -8,14 +8,12 @@
         >
 
         <div class="pt-16">
-            <p class="text-5xl text-white leading-snug font-light animate__animated animate__fadeInUp">
+            <p ref="element1" class="text-5xl text-white leading-snug font-light">
                 Education, Courses & <span class="text-dark-green">Experience</span><br />
             </p>
 
             <div class="pt-8">
-                <div
-                    class="group relative pl-16 pb-12 border-l border-l-light-gray animate__animated animate__fadeInRight"
-                >
+                <div ref="element2" class="group relative pl-16 pb-12 border-l border-l-light-gray">
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>
@@ -36,9 +34,7 @@
                     </div>
                 </div>
 
-                <div
-                    class="group relative pl-16 pb-12 border-l border-l-light-gray animate__animated animate__fadeInLeft"
-                >
+                <div ref="element3" class="group relative pl-16 pb-12 border-l border-l-light-gray">
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>
@@ -88,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="group relative pl-16 border-l border-l-light-gray animate__animated animate__fadeInRight">
+                <div ref="element4" class="group relative pl-16 border-l border-l-light-gray">
                     <span
                         class="absolute w-3 h-3 rounded-full bg-light-gray -left-[6px] -top-1 group-hover:bg-light-green transition-colors duration-300"
                     ></span>
@@ -155,3 +151,16 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const element1 = ref(null);
+const element2 = ref(null);
+const element3 = ref(null);
+const element4 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element2.value, ["animate__animated", "animate__fadeInRight"]);
+    addClass(element3.value, ["animate__animated", "animate__fadeInLeft"]);
+    addClass(element4.value, ["animate__animated", "animate__fadeInRight"]);
+});
+</script>

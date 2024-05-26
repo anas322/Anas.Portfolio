@@ -20,7 +20,11 @@
             </div>
 
             <div>
-                <p class="text-white text-center sm:text-2xl">anaselnahef12@gmail.com</p>
+                <p
+                    class="text-white hover:text-light-green hover:underline underline-offset-2 text-center sm:text-2xl transition-colors duration-300"
+                >
+                    <a href="mailto:anaselnahef12@gmail.com?subject=let's work together!">anaselnahef12@gmail.com</a>
+                </p>
                 <p class="text-white text-center sm:text-2xl">Based in Cairo, Egypt</p>
                 <p class="text-sm sm:text-base text-light-gray text-center font-semibold pt-5">
                     &#169; Anas. All Rights Reserved

@@ -6,13 +6,13 @@
             </template>
             Portfolio</UIButton
         >
-        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+        <p ref="element1" class="text-4xl sm:text-5xl pt-24 text-white">
             Featured <span class="text-light-green">Projects</span>
         </p>
 
         <div class="pt-16">
             <div class="space-y-20">
-                <div class="group animate__animated animate__fadeInUp">
+                <div ref="element2" class="group">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/streetwear.png
@@ -69,7 +69,7 @@
                     </div>
                 </div>
 
-                <div class="group animate__animated animate__fadeInUp">
+                <div ref="element2" class="group">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/twitter.png
@@ -120,7 +120,7 @@
                         </NuxtLink>
                     </div>
                 </div>
-                <div class="group animate__animated animate__fadeInUp">
+                <div ref="element3" class="group">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/instgram.png
@@ -170,7 +170,7 @@
                         </NuxtLink>
                     </div>
                 </div>
-                <div class="group animate__animated animate__fadeInUp">
+                <div ref="element4" class="group">
                     <div class="relative w-11/12 rounded-3xl overflow-hidden">
                         <img
                             src="~/assets/portfolio/recipie.png
@@ -214,3 +214,16 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const element1 = ref(null);
+const element2 = ref(null);
+const element3 = ref(null);
+const element4 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element2.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element3.value, ["animate__animated", "animate__fadeInUp"]);
+    addClass(element4.value, ["animate__animated", "animate__fadeInUp"]);
+});
+</script>

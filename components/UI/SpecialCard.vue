@@ -1,6 +1,7 @@
 <template>
     <div
-        class="group p-8 border border-light-gray hover:border-light-green rounded-3xl space-y-8 transition-colors duration-300 animate__animated animate__fadeInUp"
+        ref="element1"
+        class="group p-8 border border-light-gray hover:border-light-green rounded-3xl space-y-8 transition-colors duration-300"
     >
         <div>
             <p class="text-white group-hover:text-light-green text-2xl transition-colors duration-300">
@@ -16,3 +17,10 @@
         </p>
     </div>
 </template>
+
+<script setup>
+const element1 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+});
+</script>

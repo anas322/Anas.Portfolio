@@ -7,7 +7,7 @@
             Services</UIButton
         >
 
-        <p class="text-4xl sm:text-5xl pt-24 text-white animate__animated animate__fadeInUp">
+        <p ref="element1" class="text-4xl sm:text-5xl pt-24 text-white">
             My <span class="text-light-green"> Specializations</span>
         </p>
         <div class="pt-16 space-y-6">
@@ -42,3 +42,10 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const element1 = ref(null);
+onMounted(() => {
+    addClass(element1.value, ["animate__animated", "animate__fadeInUp"]);
+});
+</script>

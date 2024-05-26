@@ -15,5 +15,3 @@ const toggleFlyButton = () => {
     FlyButton.value = !FlyButton.value;
 };
 </script>
-
-<style></style>
